@@ -1,0 +1,30 @@
+{
+  "name": "image-asst",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --exec 'babel-node ./app.js'"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "eslint": "^7.15.0",
+    "eslint-config-egg": "^9.0.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "antd": "^4.9.3",
+    "egg": "^2.29.1",
+    "egg-bin": "^4.15.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
