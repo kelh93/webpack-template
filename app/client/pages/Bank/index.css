@@ -1,0 +1,13 @@
+.main {
+    width: 100%;
+    padding: 10px;
+}
+
+.main_top {
+    height: 35px;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.scan_btn {
+    margin-right: 20px;
+}

@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>{{ title  }}</title>
+  </head>
+  <body>
+      <div id="root"></div>
+      {% if ctx.app.config.env !== 'local' %}
+        <script src="{{ staticUrl }}/index.js"></script>
+      {% else %}
+        <script src="{{ staticUrl }}/vendor.js"></script>
+        <script src="{{ staticUrl }}/libs.js"></script>
+        <script src="{{ staticUrl }}/index.js"></script>
+      {% endif %}
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.container {
+    width: 1200px;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.list .list_item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.list .list_item:nth-child(1) {
+    border-right: 1px #d9d9d9 solid;
+}
+
+.item_box {
+    padding: 20px;
+}
+
+.item_box:hover{
+    color: #1890ff;
+}
+
+.item_title {
+    margin-top: 15px;
+}
